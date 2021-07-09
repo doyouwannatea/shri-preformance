@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Метрики</title>
+	<style>
+		:root {
+			--black-color: #333;
+			--initial-font-size: 18px;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: var(--initial-font-size);
+			color: var(--black-color);
+		}
+
+		.shake-animation {
+			display: inline-block;
+			animation: shake-animation forwards 5 600ms ease;
+		}
+
+		@keyframes shake-animation {
+			0% {
+				transform: rotate(0);
+			}
+
+			20% {
+				transform: rotate(-10deg);
+
+			}
+
+			50% {
+				transform: rotate(10deg);
+			}
+
+			100% {
+				transform: rotate(0);
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Метрики</h1>
+	<h2>В консоли <span class="shake-animation">📢</span></h2>
+
+	<script src="./stats.js"></script>
+</body>
+
+</html>

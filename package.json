@@ -1,0 +1,24 @@
+{
+  "name": "shri-performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doyouwannatea/shri-preformance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doyouwannatea/shri-preformance/issues"
+  },
+  "homepage": "https://github.com/doyouwannatea/shri-preformance#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-import-quotes": "^0.0.1"
+  }
+}

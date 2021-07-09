@@ -59,6 +59,7 @@ function showSession(data, requestId) {
     return result
 }
 
+// Посчитать пользователей за определённую дату
 function countUsersByDate(data, date) {
     const result = new Set(
         data.filter(item => item.date == date)
